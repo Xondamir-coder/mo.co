@@ -2,9 +2,9 @@
 	"name": "gsap",
 	"version": "1.0.0",
 	"scripts": {
-		"dev": "parcel index.html",
-		"build": "parcel build index.html",
-		"preview": "parcel preview index.html"
+		"dev": "vite",
+		"build": "vite build ",
+		"preview": "vite preview "
 	},
 	"author": "",
 	"license": "ISC",
@@ -12,8 +12,5 @@
 	"dependencies": {
 		"@studio-freight/lenis": "^1.0.34",
 		"gsap": "^3.12.5"
-	},
-	"devDependencies": {
-		"parcel": "^2.11.0"
 	}
 }
