@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
+		<script src="index.js" type="module" defer></script>
+		<title>GSAP</title>
+	</head>
+	<body>
+		<section class="hero">
+			<header class="header">
+				<img class="header__logo" src="./assets/logo.webp" alt="logo" />
+				<nav class="navbar">
+					<a class="navbar__link" data-href="#join-us">why join us</a>
+					<a class="navbar__link" data-href="#founders">the founders</a>
+					<a class="navbar__link" data-href="#info">beta info</a>
+				</nav>
+				<ul class="list">
+					<li class="list__item">
+						<a class="list__link" href="#">
+							<svg>
+								<use href="./assets/icons.svg#x"></use>
+							</svg>
+						</a>
+					</li>
+					<li class="list__item">
+						<a class="list__link" href="#">
+							<svg>
+								<use href="./assets/icons.svg#instagram"></use>
+							</svg>
+						</a>
+					</li>
+					<li class="list__item">
+						<a class="list__link" href="#">
+							<svg>
+								<use href="./assets/icons.svg#youtube"></use>
+							</svg>
+						</a>
+					</li>
+				</ul>
+			</header>
+			<div class="hero__content">
+				<h6 class="hero__content-title">gear up!</h6>
+				<h1 class="hero__content-text">
+					we're going<br />
+					monster<br />
+					hunting!
+				</h1>
+				<button class="button">sign up for beta</button>
+			</div>
+			<img id="hero__bg" src="./assets/bg.jpg" alt="bg" />
+			<img id="hero__dust" src="./assets/dust.webp" alt="dust" />
+			<img id="hero__rays" src="./assets/rays.webp" alt="rays" />
+			<img id="hero__back" src="./assets/foreground-back.webp" alt="foreground-back" />
+			<img id="hero__front" src="./assets/foreground-front.webp" alt="foreground-front" />
+			<img id="hero__jax" src="./assets/jax.webp" alt="jax" />
+			<img id="hero__luna" src="./assets/luna.webp" alt="luna" />
+			<img id="hero__manny" src="./assets/manny.webp" alt="manny" />
+		</section>
+		<section class="about" id="join-us">
+			<div class="perk">
+				<div class="perk__controls">
+					<button class="perk__button perk__button--left">
+						<svg>
+							<use href="./assets/icons.svg#arrow"></use>
+						</svg>
+					</button>
+					<div class="perk__title">
+						<h3>job perk 01</h3>
+					</div>
+					<button class="perk__button perk__button--right">
+						<svg>
+							<use href="./assets/icons.svg#arrow"></use>
+						</svg>
+					</button>
+				</div>
+				<div class="perks">
+					<div class="perks__carousel perks__carousel--0">
+						<div class="perk__item perk__item--yellow"><h3>epic loot</h3></div>
+						<div class="perk__item perk__item--yellow"><h3>from</h3></div>
+						<div class="perk__item perk__item--yellow"><h3>dangerous</h3></div>
+						<div class="perk__item perk__item--yellow"><h3>bosses</h3></div>
+					</div>
+					<div class="perks__carousel perks__carousel--1">
+						<div class="perk__item perk__item--purple"><h3>fresh gear</h3></div>
+						<div class="perk__item-joint">
+							<div class="perk__item perk__item--purple"><h3>to</h3></div>
+							<div class="perk__item perk__item--purple"><h3>look good</h3></div>
+						</div>
+						<div class="perk__item perk__item--purple"><h3>while</h3></div>
+						<div class="perk__item perk__item--purple"><h3>you hunt</h3></div>
+					</div>
+					<div class="perks__carousel perks__carousel--2">
+						<div class="perk__item perk__item--blue"><h3>unlimited</h3></div>
+						<div class="perk__item perk__item--blue"><h3>travel to</h3></div>
+						<div class="perk__item perk__item--blue"><h3>beautiful</h3></div>
+						<div class="perk__item perk__item--blue"><h3>parallel worlds</h3></div>
+					</div>
+				</div>
+			</div>
+			<div class="about__content">
+				<h2 class="about__content-title">why join us?</h2>
+				<p class="about__content-text">
+					We’re mo.co, a small monster-hunting startup that got into a little bit of a
+					mess with monsters. We’re a solid team, but quickly realized, we need a lot of
+					help. So join us, and take a leap into the unknown. Except, this unknown is full
+					of monsters, dungeons... and things that can slay you almost instantly, but in a
+					fun way! 😬
+				</p>
+				<button class="button">sign up</button>
+			</div>
+		</section>
+	</body>
+</html>
